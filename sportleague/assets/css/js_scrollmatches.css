@@ -1,0 +1,235 @@
+.jsSliderContainer .jscaruselcont li{
+    float:left;
+    margin:3px;
+}
+.jsSliderContainer .jsNoWrap{
+    white-space: nowrap;
+}
+.jsSliderContainer .jscaruselcont{
+    //margin:0px 35px;
+    margin: 0 auto;
+}
+.jsSliderContainer .jscaruselcont a{
+    background: none;
+    padding:0px;
+    border:0px;
+}   
+.jsmatchdate{
+    min-height: 26px;
+    text-align: center;
+    //background-color: #eee;
+    padding: 3px;
+    //color:#3a3f48;
+    font-size:11px;
+}
+body .jsmatchdate img{
+    display:inline;
+}
+.jsSliderContainer .jsrelatcont{
+    position:relative;
+    padding:0px 15px;
+    overflow:hidden;
+}
+.jsSliderContainer .jsview2 .js_div_particName {
+    padding-top: 5px;
+    display:block;
+    padding-left:0px;
+}
+.jsSliderContainer .jsprev{
+    position: absolute;
+    left:0;
+    top:50%;
+    width:15px;
+    border:none;
+    background: none;
+    padding:0px;
+    z-index: 5;
+}
+.jsSliderContainer .jsprev.disabled, .jsSliderContainer .jsnext.disabled{
+    visibility: hidden;
+}    
+.jsSliderContainer .jsnext{
+    position: absolute;
+    right:0;
+    top:50%;
+    width:15px;
+    border:none;
+    background: none;
+    padding:0px;
+    z-index: 5;
+}
+.jsmatchcont table td{
+    padding:4px;
+    white-space:nowrap;
+}
+.jsmatchcont{
+    padding-bottom: 10px;
+}
+div.scoreScrMod{
+    text-align: center;
+    min-width: 20px;
+    padding: 5px;
+        border: 1px solid #cccccc;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    color:#3a3f48;
+    font-weight: bold;
+}
+div.scoreScrMod a{
+    color:#3a3f48;
+}
+.jsSliderContainer .jsview1 td.tdminwdt{
+    min-width: 130px;
+    width:auto;
+    vertical-align:middle;
+}
+.jsSliderContainer .jsview2 td.tdminwdt{
+    min-width: 115px;
+}
+.jsSliderContainer .jsview2 td.jsvalignmdl{
+    vertical-align:middle;
+}
+.jsSliderContainer .jsview2 td{
+    text-align:center;
+    vertical-align: top;
+}
+
+.jsDefaultContainer .jsview1 .jsmatchcont table td:first-child{
+    width:35px;
+}
+
+.jsSliderContainer td.tdminembl{
+    min-width:40px;
+}
+@media (max-width: 480px) {
+    .jsSliderContainer td.tdminwdt{
+        min-width: 100px;
+    }   
+}
+.jsSliderContainer div.jsmatchseason{
+    //background-color: #eee;
+    padding: 3px;
+    //color: #3a3f48;
+    text-align: center;
+    font-weight: bold;
+}
+div.jsmatchseason{
+    //background-color: #eee;
+    padding: 3px;
+    //color: #3a3f48;
+    text-align: center;
+    font-weight: bold;
+}
+.jsDefaultContainer .tdminwdt{
+    vertical-align: top;
+    text-align: center;
+}
+body .jsDefaultContainer .jstdhometeam{
+    vertical-align: top;
+    text-align: right;
+}
+body .jsDefaultContainer .jstdawayteam{
+    vertical-align: top;
+    text-align: left;
+}
+.jsDefaultContainer .jsview1 .tdminwdt{
+    vertical-align: middle;
+    text-align: left;
+}
+.jsDefaultContainer .tdminwdt .js_div_particName{
+    display:block;
+    padding-left:0px;
+}
+.jsDefaultContainer div.jsScoreDiv {
+    width: 50px;
+    margin: 0 auto;
+
+    font-size: 12px;
+    font-weight: bold;
+    color: #336699;
+    min-height: 27px;
+    text-align: center;
+    word-spacing: 5px;
+    line-height: 25px;
+    position: relative;
+}
+.jsDefaultContainer .jsview1  .tdminwdt .js_div_particName{
+    text-align: left;
+}
+.jsDefaultContainer td.tdminembl img{
+    margin-right: 15px;
+}
+.jsview1 ul{
+    margin: 0px 10px;
+}
+table.jsMNS{
+    margin:0 auto;
+    width:auto;
+}
+#joomsport-container table.jsMNS td.jspaddright20{
+    padding-right:20px;
+}
+
+#joomsport-container .jsmatchcont .tdminembl{
+    padding: 3px 0px;
+}
+.jscaruselcont ul:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.jscaruselcont.jsview2 .tdminwdt{
+    position:relative;
+}
+.jscaruselcont.jsview2 .tdminwdt .js_div_particName{
+    //position: absolute;
+    //bottom: 0px;
+}
+#joomsport-container .jsmatchcont table,#joomsport-container .jsmatchcont table td{
+    border: 0px;
+}
+/*Vitaliy modification*/
+#joomsport-container .jscaruselcont.jsview1 > ul > li {
+	height: auto!important;
+}
+#joomsport-container .table.cansorttbl th.noSort {
+	text-align: center;
+}
+.jsSliderContainer .jscaruselcont.jsview2 table, .jsDefaultContainer .jscaruselcont.jsview2 table {
+	table-layout: fixed!important;
+}
+.widget .jsSliderContainer > .jsmainscroll > button {
+	top: 0;
+	width: 45%;
+	margin: 0 2.5%!important;
+	background: rgba(125,125,125,.1);
+}
+.widget #joomsport-container > .jsmainscroll {
+	padding: 5px;
+}
+.widget .jsSliderContainer > .jsmainscroll {
+	padding-top: 25px;
+}
+.widget .jsSliderContainer table.jsMNS td.jspaddright20 {
+	min-width: 130px;
+	padding: 2px!important;
+}
+.widget #joomsport-container table td.tdminwdt > .js_div_particName {
+	white-space: normal;
+}
+.widget #joomsport-container .jscaruselcont > .jsmatchcont > table td {
+	text-align: center;
+}
+@media (max-width: 1060px) and (min-width: 910px) {
+	.widget .jsSliderContainer table.jsMNS td.jspaddright20 {
+		min-width: auto;
+		padding: 5px!important;
+	}
+	.widget .jsSliderContainer div.jsScoreDiv {
+		width: 60px;
+		font-size: 11px;
+	}
+}
+.widget #joomsport-container > .jsmainscroll > div {
+    padding-top: 20px;
+}

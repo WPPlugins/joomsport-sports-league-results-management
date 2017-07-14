@@ -1,0 +1,10 @@
+#joomsport-container .jstblevwid {width: 100%; max-width: 100%}
+.jstblevwid td.jsaligncenter{
+    text-align: center;
+}
+#joomsport-container .jstblevwid th{
+    padding-left: 10px;
+}
+#joomsport-container .jstblevwid td:first-child{
+    padding: 3px 0px;
+}
